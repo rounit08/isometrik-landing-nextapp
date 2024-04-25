@@ -14,7 +14,9 @@ module.exports = {
       },
     },
     colors:{
-      "mainBlue" :'#414BA6'
+      "mainBlue" :'#414BA6',
+      "focusBg" : "#f9f9f9",
+      "white" : "#ffffff"
     }
   },
   plugins: [],
