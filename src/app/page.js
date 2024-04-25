@@ -7,13 +7,13 @@ import fiveminchatbot from "../../public/assets/images/make ai chatbot in 5 step
 import customizeUI from "../../public/assets/images/customize AI chatbot.webp"
 import gainCustomer from "../../public/assets/images/gain customer.webp"
 import Navbar from "./components/navbar/Navbar";
+import HeroSection from "./components/herosection/HeroSection";
 
 
 export default function Home() {
   return (
-    <main className="flex flex-col md:flex-row items-center justify-between gap-2 ">
+    <main className="">
       
- <Navbar />
-    </main>
+<HeroSection />    </main>
   );
 }

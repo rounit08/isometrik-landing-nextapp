@@ -47,7 +47,7 @@ const[isSidebarOpen, setIsSidebarOpen] = useState(false)
             <p className="p-2 border-b ">About Us</p>
         </div>
     </div>}
-            
+             
             <div className="flex  md:gap-10 pl-1 md:pl-14">
                 <Image src={Logo}  width={140} height={24}/>
                  <div className="hidden md:flex gap-10 text-sm font-medium">
