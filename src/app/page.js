@@ -9,13 +9,14 @@ import gainCustomer from "../../public/assets/images/gain customer.webp"
 import Navbar from "./globalComponents/navbar/Navbar";
 import HeroSection from "./components/herosection/HeroSection";
 import Accordion from "./globalComponents/accordion/Accordion";
-
+import Footer from "./globalComponents/footer/Footer";
 
 export default function Home() {
   return (
-    <main className="p-2">
+    <main className="">
       
-something
+
+<Footer />
 
  </main>
   );
