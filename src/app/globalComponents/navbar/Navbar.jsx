@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import Logo from "../../../../public/assets/logos/logo.webp"
-import DropdownMenu from "../Dropdown/Dropdown";
+import DropdownMenu from "../card/Dropdown/Dropdown";
 import { useState } from "react";
 const Navbar = () => {
 const[isSidebarOpen, setIsSidebarOpen] = useState(false)
