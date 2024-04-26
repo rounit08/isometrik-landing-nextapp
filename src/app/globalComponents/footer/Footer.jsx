@@ -13,7 +13,7 @@ const Footer = () => {
     const developerItems = ['Developer Portal', "Documentation", "Github", "Slack Community", "Discord"]
     const companyItems = ['About Us', 'Pricing', 'Blogs', 'Contact Us']
     return (
-        <div className="flex flex-col gap-2 bg-mainBlue text-focusBg p-2 md:p-10">
+        <div className="flex flex-col gap-2 bg-mainBlue text-focusBg p-2 md:p-20">
     <div className=" flex items-center flex-col md:flex-row md:items-start gap-2">
   
   <div className="flex flex-col  justify-evenly">
@@ -32,7 +32,7 @@ const Footer = () => {
       
   </div>
 
-  <div className="grid grid-cols-2  md:flex gap-10 p-2">
+  <div className="grid grid-cols-2  md:flex gap-10 p-2 pt-12">
   <FooterList title="PRODUCTS" items={productsItems} />
   <FooterList title="USE CASES" items={useCaseItems} />
   <FooterList title="DEVELOPERS" items={developerItems} />
