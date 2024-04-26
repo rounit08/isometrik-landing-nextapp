@@ -1,5 +1,5 @@
 import FooterList from "../../globalComponents/footer/FooterList/FooterList"
-import footerLogo from "../../../../public/assets/logos/footerLogo.webp"
+import footerLogo from "../../../../public/assets/logos/footerlogo.webp"
 import Image from "next/image"
 
 import twitterLogo from "../../../../public/assets/logos/twitter.webp"
