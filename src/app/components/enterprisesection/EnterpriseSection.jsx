@@ -17,7 +17,7 @@ const EnterpriseSection = () => {
     return (
         <div className="flex flex-col items-center p-2">
             <div className="p-2 md:w-1/2 text-center  2xl:leading-[80px]">
-                <span className=" text-4xl font-bold 2xl:text-[90px]">Meet "The Enterprise Grade AI Agents"</span>
+                <span className=" text-4xl font-bold 2xl:text-[90px]">Meet &quot;The Enterprise Grade AI Agents&quot;</span>
             </div>
             <div className="flex flex-col md:grid md:grid-rows-2 md:grid-cols-3 gap-10 p-2 md:p-10">
             <ModuleCard image={KnowledgemanagementLogo} title="Knowledge Management Module" subtitle="Transform enterprise-specific knowledge into AI-first contents" listitems={knowledgeModuleList} />
