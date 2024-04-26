@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const ModuleCard =(props)=>{
     return (
-        <div className="flex flex-1 flex-col border border-gray-250 rounded-lg h-64 items-center justify-between p-4  gap-2">
+        <div className="flex flex-1 flex-col border-2 border-focusBg rounded-lg h-64  p-4  gap-2">
             <div className="flex  w-full gap-2 items-center">
                 <Image  src={props.image} height={58} width={58}/>
                 <span className="font-bold text-base w-44">{props.title}</span>
