@@ -13,8 +13,8 @@ const Footer = () => {
     const developerItems = ['Developer Portal', "Documentation", "Github", "Slack Community", "Discord"]
     const companyItems = ['About Us', 'Pricing', 'Blogs', 'Contact Us']
     return (
-        <div className="flex flex-col gap-2 bg-mainBlue text-focusBg p-2 md:p-20">
-    <div className=" flex items-center flex-col md:flex-row md:items-start gap-2">
+        <div className="flex flex-col gap-2 bg-mainBlue text-focusBg p-2 md:p-20 md:pb-5">
+    <div className=" flex items-center flex-col md:flex-row  gap-2">
   
   <div className="flex flex-col  justify-evenly">
       <div className="hidden md:flex flex-col justify-around  w-2/3 h-52">

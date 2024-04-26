@@ -9,3 +9,10 @@
     text-wrap: balance;
   }
 } */
+
+
+
+.footercard {
+  background-image: url("../../public/assets/images/sales\ card\ bg.webp");
+  object-fit: contain;
+}
