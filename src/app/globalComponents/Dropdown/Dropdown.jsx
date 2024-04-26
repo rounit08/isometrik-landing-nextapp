@@ -32,7 +32,7 @@ const DropdownMenu = ({ title, items }) => {
         </svg>
       </div>
       {isOpen && (
-        <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-md z-10" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className="absolute left-0 mt-2 w-48 2xl:w-[30rem] 2xl:p-5 bg-white border border-gray-200 rounded-md shadow-md z-10" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <ul>
             {items.map((item, index) => (
               <li key={index} className="px-4 py-2 hover:bg-focusBg cursor-pointer">

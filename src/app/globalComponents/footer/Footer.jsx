@@ -18,21 +18,21 @@ const Footer = () => {
   
   <div className="flex flex-col  justify-evenly">
       <div className="hidden md:flex flex-col justify-around  w-2/3 h-52">
-      <Image src={footerLogo} />
-      <p>Easily integrate live multi-host audio video
+      <Image src={footerLogo} alt="footerlogo" className="2xl:w-96"/>
+      <p className="2xl:text-2xl">Easily integrate live multi-host audio video
          streaming and chat SDKs into your current web, mobile, and IoT apps
       </p>
       </div>
-      <div className="gap-5 hidden md:flex">
-       <Image src={facebookLogo} alt="facebookLogo" className="cursor-pointer" />
-       <Image src={instaLogo} alt="instalogo"       className="cursor-pointer" />
-       <Image src={twitterLogo} alt="twitterLogo"   className="cursor-pointer" />
-       <Image src={linkedinLogo} alt="linkedinLogo" className="cursor-pointer" />
+      <div className="gap-5 hidden md:flex 2xl:w-72">
+       <Image src={facebookLogo} alt="facebookLogo" className="cursor-pointer 2xl:h-16 2xl:w-52" height={30} width={30}/>
+       <Image src={instaLogo} alt="instalogo"       className="cursor-pointer 2xl:h-16 2xl:w-52" height={30} width={30}/>
+       <Image src={twitterLogo} alt="twitterLogo"   className="cursor-pointer 2xl:h-16 2xl:w-52" height={30} width={30}/>
+       <Image src={linkedinLogo} alt="linkedinLogo" className="cursor-pointer 2xl:h-16 2xl:w-52" height={30} width={30}/>
       </div>
       
   </div>
 
-  <div className="grid grid-cols-2  md:flex gap-10 p-2 pt-12">
+  <div className="grid grid-cols-2  md:flex gap-10 2xl:gap-28 p-2 pt-12">
   <FooterList title="PRODUCTS" items={productsItems} />
   <FooterList title="USE CASES" items={useCaseItems} />
   <FooterList title="DEVELOPERS" items={developerItems} />
@@ -48,7 +48,7 @@ const Footer = () => {
   
 </div>
 <div className=" pt-10 w-full">
-    <p className="text-sm font-normal border-t">©Copyright Reserved Isometrik Software Solutions pvt ltd </p>
+    <p className="text-sm font-normal border-t 2xl:text-2xl">©Copyright Reserved Isometrik Software Solutions pvt ltd </p>
 </div>
   </div>
         

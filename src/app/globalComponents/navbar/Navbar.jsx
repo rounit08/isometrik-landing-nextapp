@@ -48,9 +48,9 @@ const[isSidebarOpen, setIsSidebarOpen] = useState(false)
         </div>
     </div>}
              
-            <div className="flex  md:gap-10 pl-1 md:pl-14">
-                <Image src={Logo}  width={140} height={24}/>
-                 <div className="hidden md:flex gap-10 text-sm font-medium">
+            <div className="flex  md:gap-10 pl-1 md:pl-14 items-center">
+                <Image src={Logo}  width={140} height={24} className="2xl:h-46 2xl:w-96"/>
+                 <div className="hidden md:flex gap-10 text-sm font-medium 2xl:text-4xl">
                     <DropdownMenu title="Products" items={productItems} />
                     <DropdownMenu title="Use Cases" items={useCasesItems} />
                     <span className="cursor-pointer">Pricing</span>
@@ -59,9 +59,9 @@ const[isSidebarOpen, setIsSidebarOpen] = useState(false)
                     <span className="cursor-pointer">About Us</span>
                  </div>
             </div>
-            <div className="gap-2 font-semibold text-xs hidden md:flex">
-                <button className="bg-mainBlue  px-3 py-2 rounded-3xl cursor-pointer text-focusBg">Get Started</button>
-                <button className="cursor-pointer border rounded-3xl px-3 py-2 border-mainBlue text-mainBlue">Talk to sales</button>
+            <div className="gap-2 font-semibold text-xs 2xl:text-3xl hidden md:flex">
+                <button className="bg-mainBlue  px-3 py-2 rounded-3xl cursor-pointer text-focusBg 2xl:py-8 2xl:px-10 2xl:rounded-[50px]">Get Started</button>
+                <button className="cursor-pointer border rounded-3xl px-3 py-2 border-mainBlue text-mainBlue 2xl:px-10 2xl:py-8 2xl:rounded-[50px]">Talk to sales</button>
             </div>
             <div className="block md:hidden bg-mainBlue  px-6 py-2 rounded-3xl cursor-pointer text-focusBg">Login</div>
         </div>

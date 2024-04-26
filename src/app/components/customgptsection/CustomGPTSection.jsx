@@ -6,17 +6,17 @@ const CustomGPTSection = () => {
     return (
         <div className="flex flex-col">
             <div className="flex flex-col items-center  p-6 md:p-10 gap-5 justify-between">
-                <span className="text-3xl md:w-1/2 text-center font-bold">Design custom GPTs tailored to your business needs</span>
+                <span className="text-3xl md:w-1/2 text-center font-bold 2xl:text-[90px] 2xl:leading-[80px] 2xl:w-2/3">Design custom GPTs tailored to your business needs</span>
                 <div className="block md:hidden">
                 <Image src={CustomGptImage} alt="custom-gpt-image" height={800} width={800}/>
 
                 </div>
-                <span className="text-base font-normal">Create highly customized AI chatbots with no code straight from the Isometrik dashboard.</span>
-                <button className="bg-mainBlue text-focusBg rounded-2xl text-sm px-3 py-1 hidden md:block">Start For Free</button>
+                <span className="text-base font-normal 2xl:text-3xl">Create highly customized AI chatbots with no code straight from the Isometrik dashboard.</span>
+                <button className="bg-mainBlue text-focusBg rounded-2xl text-sm px-3 py-1 2xl:text-3xl 2xl:rounded-[35px] 2xl:px-7 2xl:py-4 hidden md:block">Start For Free</button>
             </div>
-            <div className="flex p-1 md:p-10">
+            <div className="flex p-1 md:p-10 2xl:p-20">
                 <div className="hidden md:block">
-                <Image src={CustomGptImage} alt="custom-gpt-image" height={800} width={800}/>
+                <Image src={CustomGptImage} alt="custom-gpt-image" height={800} width={800} className="2xl:w-[100rem]"/>
 
                 </div>
                 <div className=" w-full p-5 md:p-10">

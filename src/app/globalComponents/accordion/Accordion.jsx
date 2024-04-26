@@ -10,7 +10,7 @@ const Accordion = (props) => {
 
     return (
         <div className="p-1 border-b border-gray-100">
-            {isAccordionOpen ? <span onClick={toggleAccordion} className="flex items-center gap-2 font-medium text-base cursor-pointer bg-focusBg p-2 rounded-lg justify-between">
+            {isAccordionOpen ? <span onClick={toggleAccordion} className="flex items-center gap-2 font-medium text-base cursor-pointer bg-focusBg p-2 rounded-lg justify-between 2xl:p-5 2xl:text-4xl">
                 {props.title}
                 <svg
                     className={`w-3 h-3 ${isAccordionOpen ? 'rotate-0' : 'rotate-180'}`}
@@ -27,7 +27,7 @@ const Accordion = (props) => {
                         d="M9 5 5 1 1 5"
                     />
                 </svg>
-            </span> : <span onClick={toggleAccordion} className="flex items-center gap-2 font-semibold text-base cursor-pointer p-2 justify-between ">
+            </span> : <span onClick={toggleAccordion} className="flex items-center gap-2 font-semibold text-base cursor-pointer p-2 2xl:p-5 justify-between 2xl:text-4xl">
                 {props.title}
                 <svg
                     className={`w-3 h-3 ${isAccordionOpen ? 'rotate-0' : 'rotate-180'}`}
@@ -47,7 +47,7 @@ const Accordion = (props) => {
             </span> }
             
             {isAccordionOpen && (
-                <p className="transform transition-transform duration-300 ease-in-out -translate-x-2/2 bg-focusBg rounded-lg font-normal p-2">{props.paragraph}</p>
+                <p className="transform transition-transform duration-300 ease-in-out -translate-x-2/2 bg-focusBg rounded-lg font-normal p-2 2xl:p-4 2xl:text-3xl">{props.paragraph}</p>
             )}
         </div>
     );
