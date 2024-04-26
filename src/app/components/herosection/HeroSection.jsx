@@ -10,14 +10,14 @@ const HeroSection = () => {
                 chatbot for your website 
                 in minutes
             </span>
-            <Image src={heroImage} height={900} width={900} className="block md:hidden"/>
+            <Image src={heroImage} alt="hero image" height={900} width={900} className="block md:hidden"/>
             <p className="text-base font-normal 2xl:text-4xl">Build a custom GPT on your website and mobile apps to automate engagement,
                marketing, sales, and support with conversational AI.
             </p>
             <button className="bg-mainBlue  px-6 py-2 2xl:px-8 2xl:py-4  rounded-3xl 2xl:rounded-[40px] cursor-pointer text-focusBg 2xl:h-30 2xl:text-4xl">Start For Free</button>
           </div>
           <div className="hidden md:block">
-            <Image src={heroImage} height={900} width={900}/></div>  
+            <Image src={heroImage} alt="hero image" height={900} width={900}/></div>  
           </div>
     )
 }

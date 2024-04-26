@@ -4,7 +4,7 @@ const ModuleCard =(props)=>{
     return (
         <div className="flex flex-1 flex-col border-2 2xl:border-8 border-focusBg rounded-lg h-64 2xl:h-96  p-4 2xl:p-7 gap-2 2xl:gap-8 2xl:rounded-2xl">
             <div className="flex  w-full gap-2 2xl:gap-5 items-center">
-                <Image  src={props.image} height={58} width={58} className="2xl:w-20"/>
+                <Image  src={props.image} height={58} width={58} className="2xl:w-20" alt="module logo"/>
                 <span className="font-bold text-base w-44 2xl:w-72 2xl:text-3xl">{props.title}</span>
             </div>
             <div className="flex flex-col">

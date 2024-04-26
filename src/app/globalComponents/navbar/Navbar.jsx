@@ -49,7 +49,7 @@ const[isSidebarOpen, setIsSidebarOpen] = useState(false)
     </div>}
              
             <div className="flex  md:gap-10 pl-1 md:pl-14 items-center">
-                <Image src={Logo}  width={140} height={24} className="2xl:h-46 2xl:w-96"/>
+                <Image src={Logo}  width={140} height={24} className="2xl:h-46 2xl:w-96" alt="nav logo"/>
                  <div className="hidden md:flex gap-10 text-sm font-medium 2xl:text-4xl">
                     <DropdownMenu title="Products" items={productItems} />
                     <DropdownMenu title="Use Cases" items={useCasesItems} />
